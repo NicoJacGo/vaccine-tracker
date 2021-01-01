@@ -19,3 +19,7 @@ Implementation:
         - ...
     - Interactive portion
         - Locations of pharmacies/grocery stores with vaccine doses. 
+        
+Technologies:
+    - Will use React for the backend and R language for the API/backend for data visualization and an interactive map. 
+    
