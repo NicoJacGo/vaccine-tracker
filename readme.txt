@@ -17,7 +17,7 @@ Implementation:
 
     - Anlysis portion:
         - Texas map with counties displaying aggregate vaccine doses receoved to-date and per capita figures.
-        - ...
+        - Rolling one-week average 
     - Interactive portion
         - Locations of pharmacies/grocery stores with vaccine doses. 
         
