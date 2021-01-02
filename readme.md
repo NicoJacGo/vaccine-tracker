@@ -5,9 +5,9 @@ A web application primarily concerned with the visualization of data detailing p
 **NOTE**: Data is aggregated from two datasets published by the Texas DHS: [tableau-data](https://tabexternal.dshs.texas.gov/t/THD/views/COVID-19VaccineinTexasDashboard/Summary?%3Aorigin=card_share_link&%3Aembed=y&%3AisGuestRedirectFromVizportal=y) and
 [DHS' website with weekly vaccine allocation reports](https://www.dshs.texas.gov/coronavirus/immunize/vaccine.aspx)
 
-##Functionality##
+## Functionality
 
-- Analysis portion:
+    - Analysis portion:
         - Texas map with counties displaying aggregate vaccine doses receoved to-date and per capita figures.
         - Rolling one-week average 
     - Interactive portion
