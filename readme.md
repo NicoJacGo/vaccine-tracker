@@ -7,7 +7,7 @@ A web application primarily concerned with the visualization of data detailing p
 
 ##Functionality##
 
-Anlysis portion:
+- Analysis portion:
         - Texas map with counties displaying aggregate vaccine doses receoved to-date and per capita figures.
         - Rolling one-week average 
     - Interactive portion
