@@ -1,4 +1,4 @@
-### **Texas COVID vaccine tracker** 
+# **Texas COVID vaccine tracker** 
 ---
 A web application primarily concerned with the visualization of data detailing pharmacy locations vaccine dosage allotments.
 
