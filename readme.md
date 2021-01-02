@@ -22,4 +22,17 @@ We intend on making this web application available to the general populace, givi
 
 If possible, data regarding the number of vaccinated individuals will be subtracted from the weekly allotment data, giving users a more accurate view of the current number of available doses at a given location. 
 
-Additional information will include analysis-related information such as (1) vaccinated individuals per capita, (2) number of *fully* vaccinated individuals (two doses), and (3) aggregate data.  
+Additional information will include analysis-related information such as (1) vaccinated individuals per capita, (2) number of *fully* vaccinated individuals (two doses), and (3) aggregate data.
+
+## Acknowledgments
+
+ - Libraries used:
+    - tidyverse
+    - ggmap
+    - ggplot2
+    - rvest
+    - dplyr
+    - taskscheduleR (CRON)
+    - ...
+
+
