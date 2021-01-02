@@ -1,0 +1,22 @@
+Loading required package: xml2
+Warning message:
+package 'rvest' was built under R version 4.0.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Warning: Failed to create the file data.csv: Permission denied
+100 11896  100 11896    0     0  11896      0  0:00:01 --:--:--  0:00:01 27159
+curl: (23) Failed writing body (0 != 11896)
+Error in download.file(fileurl, destfile = "data.csv", method = "curl") : 
+  'curl' call had nonzero exit status
+Execution halted
