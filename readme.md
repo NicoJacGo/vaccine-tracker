@@ -13,6 +13,6 @@ A web application primarily concerned with the visualization of data detailing p
     - Interactive portion
         - Locations of pharmacies/grocery stores with vaccine dose alotments. 
         
-Technologies:
-    - Will use React for the frontend and R language for the API/backend for data visualization and an interactive map. 
+    - Technologies:
+        - Will use React for the frontend and R language for the API/backend for data visualization and an interactive map. 
     
