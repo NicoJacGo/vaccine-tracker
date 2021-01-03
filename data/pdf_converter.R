@@ -14,7 +14,7 @@ for(i in seq(1, 1, 1)){
 
 url_modifier(week)
 
-download.file(url_modifier(week), basename(url_modifier(week)))
+download.file(url_modifier(week), basename(url_modifier(week)), quiet = TRUE, mode = "wb")
 
 
 
