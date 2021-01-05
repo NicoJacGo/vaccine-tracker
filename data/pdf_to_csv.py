@@ -44,7 +44,6 @@ def pdf_to_csv(filename,first_page, last_page, userpw):
     #Step 3 - TXT to CSV
     txt_to_csv(filename)
 
-
 # this function will get us the path everytime
 def get_path_of_source(filename):
     p = pathlib.Path(filename)
