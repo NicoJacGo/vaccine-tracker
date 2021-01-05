@@ -4,16 +4,15 @@ library(shinythemes)
 
 
   # Define UI
-  ui <- fluidPage(theme = shinytheme("cerulean"),
+  ui <- fluidPage(theme = shinytheme("superhero"),
     navbarPage(
       # theme = "cerulean",  # <--- To use a theme, uncomment this
-      "My first app",
-      tabPanel("Navbar 1",
+      "Texas COVID Vaccine Tracker",
+      tabPanel("Mapper",
                sidebarPanel(
-                 tags$h3("Input:"),
-                 textInput("txt1", "Given Name:", ""),
-                 textInput("txt2", "Surname:", ""),
-                 
+                 tags$h3("County"),
+                 textInput("txt1", "Input a valid county name here:", "Dallas"),
+
                ), # sidebarPanel
                mainPanel(
                             h1("Header 1"),
