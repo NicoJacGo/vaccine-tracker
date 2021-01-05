@@ -1,4 +1,6 @@
-library(tidyverse)
-library(pdftools)
+library(pdftables)
 
-pdf <- pdf_text("")
+write.csv(head(iris, 20), file = "COVIDVaccineAllocation-Week1.csv", row.names = FALSE)
+
+convert_pdf("COVIDVaccineAllocation-Week1.pdf", "COVIDVaccineAllocation-Week1.csv")
+
