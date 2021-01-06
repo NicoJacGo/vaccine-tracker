@@ -55,6 +55,7 @@ both_col = "#045a8d"
 
 
 # testing  
+register_google(key="AIzaSyCypbYJVA5Yeht5FI92lq2UUGZHxfdZu84")
 
 Texas = get_map(location = c(lon = -100, lat = 31), zoom = 6, maptype = "terrain")
 #ggmapplot(Texas)
