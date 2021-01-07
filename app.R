@@ -58,7 +58,7 @@ both_col = "#045a8d"
 register_google(key="AIzaSyCypbYJVA5Yeht5FI92lq2UUGZHxfdZu84")
 
 Texas = get_map(location = c(lon = -100, lat = 31), zoom = 6, maptype = "terrain")
-#ggmapplot(Texas)
+ggmapplot(Texas)
 
 test <- read_csv("C:/Users/fro7e/OneDrive/Desktop/vaccine-tracker/vaccine-tracker/input_data/test_data.csv")
 
@@ -74,7 +74,8 @@ locations_sf <- st_as_sf(locations, coords = c("lon", "lat"), crs = 4326)
 
 mapview(locations_sf)
 
-mapview(list(fra, locations_sf),
+
+mapview(list(franconia, locations_sf),
         layer.name = c("Texas", "Locations"))
 
 library(lattice)
