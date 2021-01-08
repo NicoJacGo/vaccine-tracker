@@ -7,7 +7,14 @@ if(!require(RColorBrewer)) install.packages("RColorBrewer", repos = "http://cran
 if(!require(leaflet)) install.packages("leaflet", repos = "http://cran.us.r-project.org")
 if(!require(maps)) install.packages("maps", repos = "http://cran.us.r-project.org")
 if(!require(ggplot2)) install.packages("ggplot2", repos = "http://cran.us.r-project.org")
-
+library(tigris)
+library(sf)
+library(raster)
+library(rgeos)
+library(mapview)
+library(maptools)
+library(sp)
+library(maps)
   # Define UI
   ui <- fluidPage(theme = shinytheme("superhero"),
     navbarPage(
@@ -40,7 +47,7 @@ if(!require(ggplot2)) install.packages("ggplot2", repos = "http://cran.us.r-proj
     navbarPage(theme = shinytheme("flatly"), collapsible = TRUE,
                HTML('<a style="text-decoration:none;cursor:default;color:#FFFFFF;" class="active" href="#">COVID-19 vaccine tracker</a>'), id="nav",
                windowTitle = "COVID-19 vaccine tracker",
-               tabPanel("COVID-19 mapper",
+               tabPanel("Vaccine Mapper",
                         div(class="outer",
                             tags$head(includeCSS("styles.css")),
                             leafletOutput("mymap", width="100%", height="100%"),
@@ -116,7 +123,12 @@ if(!require(ggplot2)) install.packages("ggplot2", repos = "http://cran.us.r-proj
   
   # Define server function  
   server <- function(input, output) {
-    
+    output$mymap <- renderLeaflet({
+      tx <- tigris::counties(state = "TX", cb=T)
+      leaflet(tx) %>%
+        addTiles() %>%
+        addPolygons(color = "grey", fillOpacity = 0.1, smoothFactor = 0.5, weight = 2)
+    })
     output$txtout <- renderText({
       paste( input$txt1, input$txt2, sep = " " )
     })
