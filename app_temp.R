@@ -34,21 +34,7 @@ tx_data_g = read_csv("new_aggregate.csv")
                             tags$head(includeCSS("styles.css")),
                             leafletOutput("mymap", width="100%", height="100%"),
                             
-                            absolutePanel(id = "controls", class = "panel panel-default",
-                                          top = 75, left = 55, width = 250, fixed=TRUE,
-                                          draggable = TRUE, height = "auto",
-                                          
-                                          span(tags$i(h6("Reported cases are subject to significant variation in testing policy and capacity between countries.")), style="color:#045a8d"),
-                                          h3(textOutput("reactive_case_count"), align = "right"),
-                                          h4(textOutput("reactive_death_count"), align = "right"),
-                                          h6(textOutput("clean_date_reactive"), align = "right"),
-                                          h6(textOutput("reactive_country_count"), align = "right"),
-                                          plotOutput("epi_curve", height="130px", width="100%"),
-                                          plotOutput("cumulative_plot", height="130px", width="100%"),
-                                          
-                                          
-                                          
-                            ),
+                            
                             
                             absolutePanel(id = "logo", class = "card", bottom = 20, left = 60, width = 80, fixed=TRUE, draggable = FALSE, height = "auto",
                                           tags$a(href='https://www.lshtm.ac.uk', tags$img(src='lshtm_dark.png',height='40',width='80'))),
@@ -97,6 +83,7 @@ tx_data_g = read_csv("new_aggregate.csv")
                           "Hanad Hassan, University of Toronto",tags$br(),
                           tags$br(),tags$br(),tags$h4("Contact"),
                           tags$a(href="https://www.nicojacgo.com", "Nicolas Jacobs"),tags$br(),tags$br(),
+                          tags$a(href="https://www.hanadhassan.com", "Hanad Hassan"),tags$br(),tags$br()
                     
                         )
                )
