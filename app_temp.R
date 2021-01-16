@@ -25,8 +25,7 @@ library(leaflet.extras)
 tx_data_g = read_csv("new_aggregate.csv")
 
   ui <- bootstrapPage(
-    #tags$head(includeHTML("gtag.html")),
-    navbarPage(theme = shinytheme("flatly"), collapsible = TRUE,
+    navbarPage(theme = shinytheme("sandstone"), collapsible = TRUE,
                HTML('<a style="text-decoration:none;cursor:default;color:#FFFFFF;" class="active" href="#">Texas Vaccine Tracker</a>'), id="nav",
                windowTitle = "COVID-19 Vaccine Tracker",
                tabPanel("Map",
