@@ -18,6 +18,7 @@ library(sp)
 library(maps)
 library(dplyr)
 library(DT)
+library(leaflet.extras)
 
 # data imports
 
@@ -124,6 +125,7 @@ tx_data_g = read_csv("new_aggregate.csv")
     output$mymap <- renderLeaflet({
       leaflet(tx_data) %>%
         #addCircles(lng = ~Longitude, lat = ~Latitude) %>% 
+        leaflet.extras::addSearchOSM(options = searchOptions(collapsed = FALSE)) %>%
         addTiles() %>%
         addCircleMarkers(data = tx_data, lat =  ~Latitude, lng =~Longitude, 
                          radius = 7.5, popup = ~as.character(cntnt), clusterOptions = markerClusterOptions(),
@@ -133,6 +135,9 @@ tx_data_g = read_csv("new_aggregate.csv")
         addEasyButton(easyButton(
           icon="fa-crosshairs", title="ME",
           onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
+        
+      
+      
     })
     output$txtout <- renderText({
       paste( input$txt1, input$txt2, sep = " " )
