@@ -42,7 +42,10 @@ tx_data_g = read_csv("new_aggregate.csv")
                             
                         )
                ),
-               tabPanel("County Analysis",
+               navbarMenu(title = "County Analysis",
+                          tags$a("UNDER CONSTRUCTION"),
+                          tabPanel(title = a("Bins")), tabPanel(title = a("Trends")), tabPanel(title = a("Projections"))
+                        
                         
                         
                         ),
