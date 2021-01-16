@@ -1,4 +1,5 @@
 # Load R packages
+library(tidyverse)
 library(shiny)
 library(shinythemes)
 if(!require(shinyWidgets)) install.packages("shinyWidgets", repos = "http://cran.us.r-project.org")
@@ -15,39 +16,19 @@ library(mapview)
 library(maptools)
 library(sp)
 library(maps)
-  # Define UI
-  ui <- fluidPage(theme = shinytheme("superhero"),
-    navbarPage(
-      # theme = "cerulean",  # <--- To use a theme, uncomment this
-      "Texas COVID Vaccine Tracker",
-      tabPanel("Mapper",
-               sidebarPanel(
-                 tags$h3("County"),
-                 textInput("txt1", "Input a valid county name here:", "Dallas"),
+library(dplyr)
+library(DT)
 
-               ), # sidebarPanel
-               mainPanel(
-                            h1("Header 1"),
-                            
-                            h4("Output 1"),
-                            verbatimTextOutput("txtout"),
+# data imports
 
-               ) # mainPanel
-               
-      ), # Navbar 1, tabPanel
-      tabPanel("Navbar 2", "This panel is intentionally left blank"),
-      tabPanel("Navbar 3", "This panel is intentionally left blank")
-  
-    ) # navbarPage
-  ) # fluidPage
+tx_data_g = read_csv("new_aggregate.csv")
 
-  
-  ui2 <- bootstrapPage(
+  ui <- bootstrapPage(
     #tags$head(includeHTML("gtag.html")),
     navbarPage(theme = shinytheme("flatly"), collapsible = TRUE,
-               HTML('<a style="text-decoration:none;cursor:default;color:#FFFFFF;" class="active" href="#">COVID-19 vaccine tracker</a>'), id="nav",
-               windowTitle = "COVID-19 vaccine tracker",
-               tabPanel("Vaccine Mapper",
+               HTML('<a style="text-decoration:none;cursor:default;color:#FFFFFF;" class="active" href="#">Texas Vaccine Tracker</a>'), id="nav",
+               windowTitle = "COVID-19 Vaccine Tracker",
+               tabPanel("Map",
                         div(class="outer",
                             tags$head(includeCSS("styles.css")),
                             leafletOutput("mymap", width="100%", height="100%"),
@@ -79,7 +60,7 @@ library(maps)
                             
                         )
                ),
-               tabPanel("County plots",
+               tabPanel("County Analysis",
                         
                         
                         ),
@@ -88,10 +69,10 @@ library(maps)
                         numericInput("maxrows", "Rows to show", 25),
                         verbatimTextOutput("rawtable"),
                         downloadButton("downloadCsv", "Download as CSV"),tags$br(),tags$br(),
-                        "Adapted from timeline data published by ", tags$a(href="INSERT LINK :)", 
-                                                                           "<insert source here>")
+                        "Adapted from data published by the", tags$a(href="https://www.dshs.texas.gov/coronavirus/immunize/vaccine.aspx", 
+                                                                  "Texas Health and Human Services")
                ),
-               tabPanel("About this site",
+               tabPanel("About",
                         tags$div(
                           tags$h4("Last update"), 
                           #h6(paste0(update)),
@@ -141,12 +122,12 @@ library(maps)
                                             '<br><strong>Doses (Week 5):</strong> ',Doses_W5,
                                             '<br><strong>Total:</strong> ',Sum)) 
     output$mymap <- renderLeaflet({
-      leaflet(tx_data) %>% 
-        addCircles(lng = ~Longitude, lat = ~Latitude) %>% 
+      leaflet(tx_data) %>%
+        #addCircles(lng = ~Longitude, lat = ~Latitude) %>% 
         addTiles() %>%
         addCircleMarkers(data = tx_data, lat =  ~Latitude, lng =~Longitude, 
-                         radius = 3, popup = ~as.character(cntnt), 
-                         #color = ~pal(Category),
+                         radius = 7.5, popup = ~as.character(cntnt), clusterOptions = markerClusterOptions(),
+                         color = "red",
                          stroke = FALSE, fillOpacity = 0.8)%>%
         addLegend(pal=pal, values=tx_data$SumDosesRecd,opacity=1, na.label = "Not Available")%>%
         addEasyButton(easyButton(
@@ -156,8 +137,31 @@ library(maps)
     output$txtout <- renderText({
       paste( input$txt1, input$txt2, sep = " " )
     })
+    
+    output$downloadCsv <- downloadHandler(
+      filename = function() {
+        paste("COVID_Vaccine_Data_TX.csv", sep="")
+      },
+      content = function(file) {
+        tx_data_sub = tx_data %>% dplyr::select(c(Provider_Name, Address, City, County, Doses_W1, Doses_W2, Doses_W3,
+                                                  Doses_W4, Doses_W5, Sum))
+        names(tx_data_sub) = c("Provider", "Address", "City", "County", "Doses_W1","Doses_W2","Doses_W3", "Doses_W4", 
+                               "Doses_W5", "Total" )
+        write.csv(tx_data_sub, file)
+      }
+    )
+    
+    output$rawtable <- renderPrint({
+      tx_data_sub = tx_data %>% dplyr::select(c(Provider_Name, Address, City, County, Doses_W1, Doses_W2, Doses_W3,
+                                                Doses_W4, Doses_W5, Sum))
+      names(tx_data_sub) = c("Provider", "Address", "City", "County", "Doses_W1","Doses_W2","Doses_W3", "Doses_W4", 
+                             "Doses_W5", "Total" )
+      orig <- options(width = 1000)
+      print(tail(tx_data_sub, input$maxrows), row.names = FALSE)
+      options(orig)
+    })
+    
   } # server
   
-
   # Create Shiny object
-  shinyApp(ui = ui2, server = server)
+  shinyApp(ui = ui, server = server)
