@@ -83,18 +83,20 @@ tx_data_g = read_csv("new_aggregate.csv")
                           "Our aim is to complement these resources with several interactive features as well as visualization of data detailing pharmacy locations vaccine dosage allotments.",
                           
                           tags$br(),tags$br(),tags$h4("Background"), 
-                          "TODO,",
+                          "We intend on making this web application available to the general populace, giving them the ability to easily locate the nearest location offering vaccines, with the given weekly vaccine allotment and previous weekly data, along with aggregate weekly allotment data.
+                          This dataset was created to give users the ability to examine Texas' COVID vaccine allotment progress, which is an ongoing process. The data will be updated on a weekly basis, and aggregated in the aggregate.csv file. New data is provided once weekly, on Tuesday, by the Texas DSHS and converted from PDF to .csv",
                           tags$br(),tags$br(),
-                          "TODO",
+                          "This dataset was created to give users the ability to examine Texas' COVID vaccine allotment progress, which is an ongoing process. The data will be updated on a weekly basis, and aggregated in the *aggregate.csv* file. Data is aggregated from data published by the Texas DSHS. 
+                          The raw data, published in .pdf format, is available from the raw folder.",
                           tags$br(),tags$br(),
                           tags$br(),tags$br(),tags$h4("Sources"),
-                          tags$b("Texas vaccination statistics"), tags$a(href="https://tabexternal.dshs.texas.gov/t/THD/views/COVID-19VaccineinTexasDashboard/Summary?%3Aorigin=card_share_link&%3Aembed=y&%3AisGuestRedirectFromVizportal=y", "the Texas DHS"),
-                          tags$b("Weekly vaccine allocation reports: "), tags$a(href="https://www.dshs.texas.gov/coronavirus/immunize/vaccine.aspx", "the Texas DHS"),
+                          tags$b("Texas vaccination statistics"), tags$a(href="https://tabexternal.dshs.texas.gov/t/THD/views/COVID-19VaccineinTexasDashboard/Summary?%3Aorigin=card_share_link&%3Aembed=y&%3AisGuestRedirectFromVizportal=y", "the Texas DSHS homepage"),
+                          tags$b("weekly vaccine allocation reports: "), tags$a(href="https://www.dshs.texas.gov/coronavirus/immunize/vaccine.aspx", "the Texas DSHS"),
                           tags$br(),tags$br(),tags$h4("Authors"),
-                          "Nicolas Jacobs, student at The University of Toronto",tags$br(),
-                          "Hanad Hassan, student at The University of Toronto",tags$br(),
+                          "Nicolas Jacobs, University of Toronto",tags$br(),
+                          "Hanad Hassan, University of Toronto",tags$br(),
                           tags$br(),tags$br(),tags$h4("Contact"),
-                          "nicolas.jacobs@utoronto.ca",tags$br(),tags$br(),
+                          tags$a(href="https://www.nicojacgo.com", "Nicolas Jacobs"),tags$br(),tags$br(),
                     
                         )
                )
