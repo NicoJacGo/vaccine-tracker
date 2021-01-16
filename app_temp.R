@@ -34,15 +34,10 @@ tx_data_g = read_csv("new_aggregate.csv")
                             tags$head(includeCSS("styles.css")),
                             leafletOutput("mymap", width="100%", height="100%"),
                             
-                            
-                            
-                            absolutePanel(id = "logo", class = "card", bottom = 20, left = 60, width = 80, fixed=TRUE, draggable = FALSE, height = "auto",
-                                          tags$a(href='https://www.lshtm.ac.uk', tags$img(src='lshtm_dark.png',height='40',width='80'))),
-                            
                             absolutePanel(id = "logo", class = "card", bottom = 20, left = 20, width = 30, fixed=TRUE, draggable = FALSE, height = "auto",
                                           actionButton("twitter_share", label = "", icon = icon("twitter"),style='padding:5px',
                                                        onclick = sprintf("window.open('%s')", 
-                                                                         "https://twitter.com/intent/tweet?text=%20@LSHTM_Vaccines%20outbreak%20mapper&url=https://bit.ly/2uBvnds&hashtags=coronavirus")))
+                                                                         "https://twitter.com/intent/tweet?text=%20Texas-Vaccine-Tracker%20mapper&url=https://bit.ly/2uBvnds&hashtags=coronavirus")))
                             
                             
                         )
@@ -57,7 +52,7 @@ tx_data_g = read_csv("new_aggregate.csv")
                         verbatimTextOutput("rawtable"),
                         downloadButton("downloadCsv", "Download as CSV"),tags$br(),tags$br(),
                         "Adapted from data published by the", tags$a(href="https://www.dshs.texas.gov/coronavirus/immunize/vaccine.aspx", 
-                                                                  "Texas Health and Human Services")
+                                                                  "Texas Health and Human Services.")
                ),
                tabPanel("About",
                         tags$div(
