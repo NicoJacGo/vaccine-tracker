@@ -1,0 +1,346 @@
+Provider_Name,Address,City,County,Doses_W8
+Medical Clinic Of Muleshoe,708 S 1st St,Muleshoe,BAILEY,975
+A+ Life Style Medical Group,815 Hwy 71 W,Bastrop,BASTROP,"1,000"
+Christus Spohn Health System Beeville,1500 E Houston St,Beeville,BEE,"1,950"
+Community Action Health Center,301 S Hillside Dr Ste 5,Beeville,BEE,975
+Lhd Bell County Public Health District (Re),820 N 31st Street,Temple,BELL,"3,900"
+Samhd Main Immunizations Clinic,210 N Mel Waiters Way,San Antonio,BEXAR,"10,000"
+University Health System - Inpatient,4502 Medical Dr,San Antonio,BEXAR,"10,725"
+Wellness 360 (Adult),7703 Floyd Curl Dr,San Antonio,BEXAR,"5,850"
+Chi St Joseph Health College Station Hospital,1604 Rock Prairie Rd,College Station,BRAZOS,"5,000"
+BSW Medical Center Marble Falls,810 Tx-71w,Marble Falls,BURNET,975
+Ccdhhs San Benito Nursing Office,1390 W Expressway 83,San Benito,CAMERON,"6,000"
+CHAMBERS COUNTY HEALTH DEPT ANAHUAC,102 AIRPORT RD,Anahuac,CHAMBERS,"1,200"
+Clay County Memorial Hospital,310 W South St,Henrietta,CLAY,975
+Allen Fire Department,310 Century Pkwy,Allen,COLLIN,"7,800"
+City Of Mckinney Fire Department,2200 Taylor Burk Dr,McKinney,COLLIN,"7,800"
+Collin County Healthcare Services,825 N Mcdonald St Ste 145,McKinney,COLLIN,"9,750"
+Baylor Scott & White Medical Center - Plano,4700 Alliance Blvd,Plano,COLLIN,"9,750"
+Coryell Health Medical Clinic,1507 W Main St,Gatesville,CORYELL,975
+Coon Memorial Hospital,1411 Denver Ave,Dalhart,DALLAM,975
+Baylor University Med Cntr Dallas,3500 Gaston Ave,Dallas,DALLAS,"4,875"
+City Of Dallas,650 S Griffin Street,Dallas,DALLAS,"4,875"
+LHD Dallas County Health And Human Services (Re),2377 N Stemmons Fwy,Dallas,DALLAS,"9,000"
+Parkland Hospital,5200 Harry Hines Blvd,Dallas,DALLAS,"11,700"
+UT Southwestern Medical Center,5323 Harry Hines Blvd,Dallas,DALLAS,"11,700"
+Lhd Garland (City Of) Health Dept (Re),206 Carver Dr,Garland,DALLAS,"1,000"
+LHD Denton County Public Health (RE),535 S. Loop 288,Denton,DENTON,"32,475"
+Dimmit Regional Hospital,704 Hospital Dr,Carrizo Springs,DIMMIT,975
+Medical Center Hospital,400 W 4th,Odessa,ECTOR,"3,900"
+City of El Paso Fire Department,301 George Perry,El Paso,EL PASO,"5,000"
+University Medical Center of El Paso,4815 Alameda Ave,El Paso,EL PASO,"8,775"
+Falls Community Hospital & Clinic,322 Coleman St,Marlin,FALLS,975
+Tmc Bonham Hospital,504 Lipscomb St,Bonham,FANNIN,975
+LHD FORT BEND COUNTY HEALTH DEPARTMENT (HHS) (RE),4520 Reading Rd,Rosenberg,FORT BEND,"9,750"
+University Of Texas Medical Branch Hospital,301 University Blvd,Galveston,GALVESTON,"4,875"
+LHD Galveston County Health District (RE),9850 B Emmett F Lowry EXpy,Texas City,GALVESTON,"1,000"
+Hill Country Memorial Hospital,1020 S State Highway 16,Fredericksburg,GILLESPIE,"1,200"
+CHRISTUS Good Shepherd Medical Center Longview,700 E Marshall Ave,Longview,GREGG,"2,925"
+Chi St Lukes Health,6720 Bertner Ave,Houston,HARRIS,"1,950"
+HCPH Main Office,2223 West Loop South,Houston,HARRIS,"9,000"
+Houston Health Department Immunization Bureau,8000 N Stadium Dr,Houston,HARRIS,"9,000"
+Houston Methodist Hospital,6565 Fannin St,Houston,HARRIS,"13,650"
+Memorial Hermann Memorial City Medical Center,921 Gessner Rd,Houston,HARRIS,"4,875"
+School Of Nursing - Main Building,1851 Crosspoint Ave.,Houston,HARRIS,"3,900"
+Lhd Hays County Health Department (Re),401 Broadway St Ste A,San Marcos,HAYS,"1,950"
+Doctors Hospital at Renaissance,5501 South McColl Road,Edinburg,HIDALGO,"6,825"
+Lhd Hidalgo County Health Department (Re),1304 S 25th Ave,Edinburg,HIDALGO,"5,000"
+Ut Health Rgv Employee Health Edinburg,1210 W Schunior St,Edinburg,HIDALGO,975
+UTHEALTH RGV Family Health,2810 W. Expressway 83,Mercedes,HIDALGO,975
+Lhd Jasper-Newton Co Phealth Dist (Re),139 W Lamar St,Jasper,JASPER,"1,600"
+Jefferson County Immunization Clinic,7933 Viterbo Rd Ste 100,Beaumont,JEFFERSON,"1,950"
+Christus Spohn Health System Alice,2500 E Main St,Alice,JIM WELLS,975
+Christus Spohn Health System Kleberg,1311 General Cavazos Blvd,Kingsville,KLEBERG,975
+Kleberg County Sheriff's Office,1500 East King,Kingsville,KLEBERG,"1,000"
+La Salle County Regional Health Authority,247 Mars Drive,Cotulla,LA SALLE,975
+"Emergency Hospital Systems, LLC",300 E Crockett,Cleveland,LIBERTY,975
+Lhd Lubbock City Health Dept (Re),806 18th St,Lubbock,LUBBOCK,"8,000"
+Eagle Pass Fire Department,2558 El Indio Hwy,Eagle Pass,MAVERICK,"1,200"
+Lhd Waco-Mclennan Co Phealth Dist (Re),225 W Waco Dr,Waco,MCLENNAN,"1,500"
+Providence Health - Providence Health Center,6901 Medical Pkwy,Waco,MCLENNAN,"1,950"
+Midland Memorial Hospital,400 Rosalind Redfern Grover Pkwy,Midland,MIDLAND,"4,875"
+CHI ST LUKES HEALTH WOODLANDS HOSP,17200 ST LUKES WAY,Conroe,MONTGOMERY,"3,900"
+Lone Star Family Health Center,605 S. Conroe Medical Dr,Conroe,MONTGOMERY,"2,000"
+LHD Corsicana-Navarro Public Health District (RE),618 N Main,Corsicana,NAVARRO,"1,500"
+Driscoll Health System,3533 S. Alameda,Corpus Christi,NUECES,975
+LHD Corpus Christi-Nueces County Public Health District (RE) 1702 Horne Road,,Corpus Christi,NUECES,"5,000"
+Parker County Hospital District,1130 Pecan Dr,Weatherford,PARKER,"1,950"
+LHD Amarillo DOH,1000 Martin Rd,Amarillo,POTTER,"6,000"
+Pecos Valley Rural Health Clinic,2335 S Pigman St,Pecos,REEVES,975
+Lhd Nethealth (Re),815 N Broadway Ave,Tyler,SMITH,"2,450"
+UT Health Science Center Tyler,11937 Us Highway 271,Tyler,SMITH,"1,950"
+Arlington Fire Department,620 W Division St.,Arlington,TARRANT,"7,000"
+Tarrant Co Ph Imm Outreach,1101 S Main St Ste 1350,Fort Worth,TARRANT,"9,000"
+Texas Health Medical Support,1100 Bridgewood,Fort Worth,TARRANT,"9,750"
+Hendrick Medical Center,1900 Pine St,Abilene,TAYLOR,"2,925"
+Shannon Pharmacy,119 E. Beauregard Ave,San Angelo,TOM GREEN,"1,950"
+Austin Public Health,15 Waller Street,Austin,TRAVIS,"12,000"
+Ut Health Austin (Dell Medical School),1601 Trinity Avenue,Austin,TRAVIS,"1,950"
+Uvalde Memorial Hospital,1025 Garner Field Rd.,Uvalde,UVALDE,975
+Victoria County Public Health Department,2805 N Navarro,Victoria,VICTORIA,"2,000"
+Washington County Ems,1875 Highway 290 W,Brenham,WASHINGTON,"4,000"
+City Of Laredo Health Department,2600 Cedar Ave,Laredo,WEBB,"5,000"
+Family Emergency Rooms Cedar Park,3620 E. WHITESTONE BLVD.,Cedar Park,WILLIAMSON,"8,000"
+ADDITIONAL PROVIDERS,,,,
+Palestine Regional Medical Center,2900 S Loop 256,Palestine,ANDERSON,500
+Lhd Angelina County And Cities Health District (Re),503 Hill St Ste 100,Lufkin,ANGELINA,700
+Heb Pharmacy 562,1409 Highway 35 N,Rockport,ARANSAS,200
+Eagle Pharmacy - Holiday,700 S. College Ave,Holliday,ARCHER,200
+Claude Family Medical Clinic,201 Parks St,Claude,ARMSTRONG,200
+DSHS Bellville Clinic,602 E Hacienda St,Bellville,AUSTIN,200
+Dshs Bandera,702 Buck Creek Rd,Bandera,BANDERA,300
+Bastrop Family Practice,275 Jackson St,Bastrop,BASTROP,100
+Communitycare- Ob/Gyn Bastrop,301 Highway 71 W Ste 111,Bastrop,BASTROP,200
+Seymour Hospital Rural Health Clinic,201 Stadium Dr,Seymour,BAYLOR,200
+Communicare Health Centers West,1102 Barclay St,San Antonio,BEXAR,200
+Dshs HSR 8 Hq - San Antonio (Re),7430 Louis Pasteur Dr,San Antonio,BEXAR,500
+San Antonio State Supported Living Center,6711 SOUTH NEW BRAUNFELS AVE,San Antonio,BEXAR,200
+North Blanco County Ems,105 Bill Watson Dr,Johnson City,BLANCO,300
+Christus St Michael Health System,2600 Saint Michael Dr,Texarkana,BOWIE,300
+Lhd Texarkana-Bowie Co Fam Hlth Cntr (Re),902 W 12th St,Texarkana,BOWIE,500
+Brazoria County Health Department,434 E Mulberry St,Angleton,BRAZORIA,"1,000"
+Utmb-Angleton Danbury Campus,132 E Hospital Dr,Angleton,BRAZORIA,"5,000"
+Stephen F Austin Community Health Center Inc,905 N. Gulf Blvd,Freeport,BRAZORIA,"2,000"
+Kelsey-Seybold Clinic - Pearland,2515 Business Center Dr,Pearland,BRAZORIA,"2,000"
+Texas Department of Criminal Justice Hamilton,200 Lee Morrison,Bryan,BRAZOS,100
+Big Bend Regional Health Center,2600 Highway North 118,Alpine,BREWSTER,300
+Cogdell Clinic Briscoe County,701 Commerce St,Silverton,BRISCOE,200
+Community Action Health Center- Brooks,1302 S St Marys St Ste A,Falfurrias,BROOKS,100
+Accelhealth Brownwood,3804 Highway 377 S,Brownwood,BROWN,100
+Texas Department of Criminal Justice HAVINS,500 FM 45 East,Brownwood,BROWN,100
+Texas Department of Criminal Justice HALBERT,800 Ellen Halbert Drive,Burnet,BURNET,100
+Lockhart Family Practice Center,2060 S Colorado St,Lockhart,CALDWELL,100
+Texas Department of Criminal Justice Lockhart,1400 Industrial Blvd.,Lockhart,CALDWELL,100
+Seton Edgar B Davis Hospital,130 Hays St,Luling,CALDWELL,500
+Resourcecare Clinic Baird,128 W 4th St,Baird,CALLAHAN,200
+Su Clinica Women's Health Center- Harlingen,1706 Treasure Hills Blvd,Harlingen,CAMERON,100
+Ut Health Pittsburg Hospital,2701 Us Highway 271 N,Pittsburg,CAMP,200
+Walmart Pharmacy 226,201 Loop 59,Atlanta,CASS,100
+Bayside Community Hospital,Po Box 398,Anahuac,CHAMBERS,500
+Texas Department of Criminal Justice ROACH,15845 FM 164,Childress,CHILDRESS,100
+Cochran Memorial Hospital,201 E Grant Ave Ste 100,Morton,COCHRAN,200
+Frisco Fire Department,8601 Gary Burns Dr.,Frisco,COLLIN,"7,800"
+"Preferred Hospital Leasing, Inc Dba Collingsworth General Hos1013 15th St",,Wellington,COLLINGSWORTH,200
+DSHS Columbus Clinic,1220 Bowie St,Columbus,COLORADO,200
+Rice Medical Associates - Eagle Lake,610 S Austin Rd,Eagle Lake,COLORADO,100
+Centro Med Union Avenue,226 N Union Ave,New Braunfels,COMAL,300
+Christus Trinity Clinic Hill Country Landa,774 Landa St,New Braunfels,COMAL,300
+Comal County Public Health Office (Re),1297 Church Hill Drive,New Braunfels,COMAL,"4,000"
+Resolute Health Hospital,555 Creekside Crossing,New Braunfels,COMAL,300
+Accelhealth De Leon,1100 West Reynosa Ave,De Leon,COMANCHE,100
+DSHS Gainesville,1714 Justice Center Blvd,Gainesville,COOKE,100
+Crosbyton Clinic Hosptital,710 W Main St,Crosbyton,CROSBY,200
+Cooper Clinic,12200 Preston Rd,Dallas,DALLAS,200
+Healing Hands Ministries,8515 Greenville Ave Ste N-112,Dallas,DALLAS,200
+Los Barrios Unidos Community Clinic,4732 W. Illinois Ave.,Dallas,DALLAS,200
+Malcolm X Clinic,4432 Malcolm X,Dallas,DALLAS,100
+Methodist Rehabilitation Hospital,3020 W Wheatland Rd,Dallas,DALLAS,"1,950"
+Parkland Health & Hospital Sys-Ellis Davis,9191 S. Polk St.,Dallas,DALLAS,200
+Parkland Hospital System-Center for Geriatrics,2231 Butler Street,Dallas,DALLAS,200
+Walgreens Pharmacy 04624,1461 Robert B Cullum Blvd,Dallas,DALLAS,100
+Walgreens Pharmacy 04747,3211 S Lancaster Rd,Dallas,DALLAS,100
+Walgreens Pharmacy 05920,1060 W Camp Wisdom Rd,Dallas,DALLAS,100
+Walgreens Pharmacy 07783,2301 Lakeland Dr,Dallas,DALLAS,100
+Walmart Pharmacy 5810,7075 W Wheatland Rd,Dallas,DALLAS,100
+Wellmed at Redbird Square,3107 Camp Wisdom Rd,Dallas,DALLAS,400
+Grand Prairie Fire Department,"1525 arkansas ln, 3rd floor",Grand Prairie,DALLAS,500
+Parkland Health & Hospital Sys-Eastfield,3737 Motley,Mesquite,DALLAS,200
+ALLIANCE UNITED HOSPICE CARE INC,811 SOUTH CENTRAL EXPRESSWAY,Richardson,DALLAS,200
+DSHS Hereford,600 N 25 Mile Ave Ste 500,Hereford,DEAF SMITH,100
+Carevide Cooper,91 W Side Sq,Cooper,DELTA,200
+Community Pharmacy - Denton - 4400 Teasley Lane,4400 Teasley Lane,Denton,DENTON,200
+Health Services Of North Texas,4304 Mesa Dr,Denton,DENTON,200
+Mercy Hospice,2281 Olympia Dr.,Flower Mound,DENTON,100
+South Tx Rural Health Services - Carrizo Springs,902 S 5th St,Carrizo Springs,DIMMIT,200
+Community Action Health Center - Duval,115 W Main St,Benavides,DUVAL,200
+Texas Department of Criminal Justice GLOSSBRENNER,5100 S. FM 1329,San Diego,DUVAL,100
+Eastland Memorial Hospital,Po Box 897,Eastland,EASTLAND,200
+Montana Vista Community Partnership,14900 Greg Drive Ste B,El Paso,EL PASO,100
+Project Vida Nafzger Health Clinic,3612 Pera Ave,El Paso,EL PASO,200
+The University of Texas at El Paso,500 W. University Ave,El Paso,EL PASO,975
+Baylor Scott And White Medical Center - Waxahachie,2400 N. I-35e,Waxahachie,ELLIS,"5,000"
+Convenient Care Family Medicine,2216 West Washington,Stephenville,ERATH,400
+Carevide Bonham,920 N Center St,Bonham,FANNIN,100
+Texas Department of Criminal Justice C MOORE,1700 N FM 87,Bonham,FANNIN,100
+Puckett Family Clinic,1301 E Main St,Honey Grove,FANNIN,200
+Fisher County Hospital District,774 State Highway 70 N,Rotan,FISHER,200
+Payne Family Pharmacy,200 S Main St,Floydada,FLOYD,100
+Cogdell Rural Health Clinic,320 N Main St,Lockney,FLOYD,100
+Foard County Clinic,200 North 1st Street,Crowell,FOARD,200
+Fort Bend Family Health Center Access Health,400 Austin St,Richmond,FORT BEND,100
+Houston Methodist Sugar Land Hospital,16655 Southwest Freeway,Sugar Land,FORT BEND,"10,725"
+Memorial Hermann Sugar Land,17500 W Grand Pkwy S,Sugar Land,FORT BEND,"10,725"
+St. Hope Foundation Sugar Land,14815 Southwest Fwy,Sugar Land,FORT BEND,100
+Franklin County Rural Health Clinic,506 Texas Highway 37,Mount Vernon,FRANKLIN,300
+S Tx Rhs Inc,606 W Leona St,Dilley,FRIO,200
+Texas Department of Criminal Justice BRISCOE,1459 W Hwy 85,Dilley,FRIO,100
+South Tx Rural Health Services Inc - Pearsall,150 Medical Dr.,Pearsall,FRIO,200
+Texas Department of Criminal Justice Young,5509 Attwater Ave.,Dickinson,GALVESTON,100
+Garza County Health Clinic,1104 N. Avenue S,Post,GARZA,300
+Dshs Pampa,121 S Gillespie St,Pampa,GRAY,100
+"Bullard Drug, Inc",1926 W MORTON ST,Denison,GRAYSON,100
+City Drug Co,232 E JEFFERSON ST,Van Alstyne,GRAYSON,100
+Longview Wellness Center,705 E MARSHALL AVE,Longview,GREGG,100
+City of Schertz EMS,1400 Schertz Parkway,Schertz,GUADALUPE,"1,000"
+Kellum Family Medicine,3401 Fm 3009,Schertz,GUADALUPE,975
+Guadalupe Regional Medical Center,1215 E Court,Seguin,GUADALUPE,"5,000"
+Seguin Family Health Center,1104 Jefferson Ave,Seguin,GUADALUPE,100
+Texas Department of Criminal Justice FORMBY,998 CR AA,Plainview,HALE,100
+Hardeman County Clinic,404 Mercer St,Quanah,HARDEMAN,200
+Lhd Hardin County Health Department (Re),1135 Redwood,Kountze,HARDIN,600
+St Hope Foundation Inc,6800 West Loop S Ste 560,Bellaire,HARRIS,200
+Acres Home Health Center,818 Ringold St,Houston,HARRIS,300
+Airline Chldrns Clinic Vecino Hlth Ctr,5808 Airline Dr,Houston,HARRIS,100
+Baylor College Of Medicine,1 Baylor Plz Stop Bcm-667,Houston,HARRIS,"3,900"
+Ben Taub General Hospital,1504 Taub Loop,Houston,HARRIS,"3,900"
+Christus Healthy Living Mobile Clinics,2615 Fannin St,Houston,HARRIS,100
+Cleveland E Odom,5516 Lockwood Dr,Houston,HARRIS,200
+Dshs Hsr 6/5s Hq - Houston (Re),5425 Polk St Ste 420,Houston,HARRIS,500
+Gulfgate Health Center,7550 Office City Drive,Houston,HARRIS,300
+HOPE CLINIC,7001 corporate dr,Houston,HARRIS,200
+Hope Clinic Alief,14438 Bellaire Blvd,Houston,HARRIS,200
+Houston Area Community Services,2150 W 18th St Ste 300,Houston,HARRIS,100
+Ibn Sina Foundation Children's Clinic,11220 S Wilcrest Dr,Houston,HARRIS,200
+Lbj Hospital - Harris County Hospital District,5656 Kelley St,Houston,HARRIS,"1,950"
+St Hope Foundation,255 Northpoint Dr Ste 200,Houston,HARRIS,975
+Texas Department of Criminal Justice Kegans,707 Top Street,Houston,HARRIS,100
+UT MD Anderson Cancer Center,1515 Holcombe Blvd,Houston,HARRIS,"1,950"
+Texas Vaccine Institute,21811 Katy Fwy Ste D102,Katy,HARRIS,500
+Envoy Hospice,201 Kingwood Medical Dr. Suite B-500Kingwood,,HARRIS,100
+Park Manor of Tomball,Park Manor of Tomball,Tomball,HARRIS,200
+Ibn Sina Community Clinic,15132 Old Galveston,Webster,HARRIS,300
+Marshall-Harrison County Health District (Re),805 Lindsey Dr,Marshall,HARRISON,500
+The Drug Store,100 S Avenue E,Haskell,HASKELL,200
+Austin Regional Clinic-Buda,3420 Fm 967 Ste B100,Buda,HAYS,300
+Austin Regional Clinic - Kyle,4100 Everett Dr Ste 400,Kyle,HAYS,300
+Seton Medical Center Hays,6001 Kyle Pkwy,Kyle,HAYS,300
+Hemphill County Hospital,1020 S.4th,Canadian,HEMPHILL,300
+Brookshire's Pharmacy 011,807 E Tyler St,Athens,HENDERSON,100
+Brookshires Pharmacy 84,703 HWY 31 E,Chandler,HENDERSON,100
+Brookshires Pharmacy 68,210 S Seven Points Dr,Kemp,HENDERSON,100
+Brookshires Pharmacy 064,1200 S 3rd St,Mabank,HENDERSON,100
+Nuestra Clinica Del Valle - Donna,105 S 10th St,Donna,HIDALGO,100
+Nuestra Clinica Del Valle - Mercedes,1500 W 1st St,Mercedes,HIDALGO,100
+Nuestra Clinica Del Valle - Mission,611 N Bryan Rd,Mission,HIDALGO,100
+Hill Regional Hospital,101 Circle Dr,Hillsboro,HILL,500
+"South Plains Rural Health Services, Inc.",1000 FM 300,Levelland,HOCKLEY,200
+Granbury Hood County EMS Inc,2200 Commercial Ln,Granbury,HOOD,"1,500"
+Crockett Medical Center Clinic,1050 East Loop 304,Crockett,HOUSTON,300
+Texas Department of Criminal Justice EASTHAM,Farm Road 230,Lovelady,HOUSTON,100
+Howard County Community Health Center,1300 S Gregg St,Big Spring,HOWARD,100
+Carevide,4311 Wesley St,Greenville,HUNT,100
+Golden Plains Community Hospital,100 Medical Dr.,Borger,HUTCHINSON,100
+Jack County Medical Clinic,215 Chisholm Trail,Jacksboro,JACK,400
+Texas Department of Criminal Justice Lindsey,1620 FM 3344,Jacksboro,JACK,100
+S And R Drug Co,1606 S Margaret Ave,Kirbyville,JASPER,100
+Fort Davis Family Practice,1 Memorial Square 0792,Fort Davis,JEFF DAVIS,100
+Beaumont Health Department,3040 College St,Beaumont,JEFFERSON,500
+Legacy Communty Health,450 N 11th St,Beaumont,JEFFERSON,200
+Gulf Coast Health Center Inc.,2548 Memorial Blvd,Port Arthur,JEFFERSON,200
+Ibn Sina Community Medical Clinic,8455 9th Ave,Port Arthur,JEFFERSON,200
+Lhd Port Arthur City Health Dept (Re),449 Austin Ave,Port Arthur,JEFFERSON,500
+The Medical Center Of Southeast Texas,2555 Jimmy Johnson Blvd,Port Arthur,JEFFERSON,"1,000"
+Gateway Community Health Center Inc. - Hebbronville,473 State Highway 285,Hebbronville,JIM HOGG,100
+Hometown Healthcare Orange Grove,101 S Eugenia St,Orange Grove,JIM WELLS,100
+DSHS Cleburne,108 E Kilpatrick St,Cleburne,JOHNSON,100
+Terrell Fire Department,201 East Nash Street,Terrell,KAUFMAN,500
+DSHS Kerrville,819 Water St Ste 290,Kerrville,KERR,200
+Heb Pharmacy 655,313 Sidney Baker Drive S,Kerrville,KERR,200
+HEB Pharmacy 770,300 Main St,Kerrville,KERR,200
+Peterson Regional Medical Center - Kerrville,551 Hill Country Dr,Kerrville,KERR,300
+Walgreens Pharmacy 03730,628 Jefferson St.,Kerrville,KERR,200
+Walmart Pharmacy 508,1216 Junction Hwy,Kerrville,KERR,300
+Frontera Healthcare Network-Junction,509 College St,Junction,KIMBLE,200
+United Medical Centers #2,202 James Street,Brackettville,KINNEY,100
+Knox City Clinic,712 Se 5th St,Knox City,KNOX,300
+South Tx Rural Health Serv Cotulla,105 S Stewart,Cotulla,LA SALLE,200
+Lhd Paris-Lamar Co Health Dept (Re),400 W Sherman St,Paris,LAMAR,400
+Advent Health Rollins Brook Hospital,608 North Key Avenue,Lampasas,LAMPASAS,300
+Pieratt's Pharmacy,233 S. Manse,Giddings,LEE,200
+Health Center Of Southeast Texas-Liberty,1202 N Travis St,Liberty,LIBERTY,100
+Teare Memorial Clinic,146 Pioneer Dr,Booker,LIPSCOMB,100
+Corner Drug,600 Bessemer Ave,Llano,LLANO,"1,000"
+Dshs Phr 1 Hq - Lubbock (Re),6302 Iola Ave,Lubbock,LUBBOCK,300
+Dshs Hsr 6/5s-Bay City,1700 Merlin St,Bay City,MATAGORDA,200
+Frontera Healthcare-Brady,2205 S Bridge St Ste 300,Brady,MCCULLOCH,200
+Family Health Center - Waco,1600 Providence Dr,Waco,MCLENNAN,200
+South Tx Rural Health Services Devine,1010 W Hondo Ave,Devine,MEDINA,200
+South Tx Rural Health Services Hondo,2912 Avenue E,Hondo,MEDINA,200
+Midland Community Healthcare Services - Midland 1,801 E Florida Ave,Midland,MIDLAND,200
+Mitchell County Hospital,997 W I20,Colorado City,MITCHELL,300
+"Aspire Hospital, LLC",2006 South Loop 336 West,Conroe,MONTGOMERY,100
+Houston Methodist The Woodlands Hsptl,17201 Interstate 45 S,Conroe,MONTGOMERY,"4,875"
+St. Hope Foundation,1414 S Frazier St Ste 105,Conroe,MONTGOMERY,100
+Texas Children's Hospital Woodlands,17600 Interstate 45 S,Conroe,MONTGOMERY,975
+Memorial Hermann The Woodlands Hospital,9250 Pinecroft Drive,Spring,MONTGOMERY,"5,850"
+Dshs Dumas,501 Success Blvd,Dumas,MOORE,100
+Brookshires Pharmacy 109,609 Linda Dr,Daingerfield,MORRIS,100
+East Texas Community Health Services,1309 S. University Dr.,Nacogdoches,NACOGDOCHES,200
+Magnolia Court Assisted Living,5902 North Street,Nacogdoches,NACOGDOCHES,100
+Jasper-Newton County Phd (Newton),210 High St,Newton,NEWTON,300
+Amistad Community Health Center,1533 S Brownlee Blvd Ste 100,Corpus Christi,NUECES,200
+Corpus Christi Fire Department,2406 Leopard St,Corpus Christi,NUECES,500
+Family Care Clinic Of Boys Ranch,74 Patterson Circle,Boys Ranch,OLDHAM,200
+Palo Pinto County Hospital District,400 Sw 25th Ave,Mineral Wells,PALO PINTO,300
+Hope Community Medicine-Carthage,820 West Panola St.,Carthage,PANOLA,200
+Cactus Health,700 N Main St,Fort Stockton,PECOS,100
+PECOS COUNTY MEMORIAL HOSPITAL DBA FAMILY CARE CEN387 W IH 10,,Fort Stockton,PECOS,400
+Texas Department of Criminal Justice LYNAUGH,1098 S. Highway 2037,Fort Stockton,PECOS,100
+Brookshires Pharmacy 24,100 S Home St,Corrigan,POLK,300
+Brookshires Pharmacy 21,1253 W Church St,Livingston,POLK,500
+Pantex Occupational Health Services,Hwy 60 & FM 2373,Amarillo,POTTER,975
+Presidio County Medical Clinic,1501 N. Erma,Presidio,PRESIDIO,200
+Dshs Canyon,3407 Pony Express Way,Amarillo,RANDALL,500
+The Health Center Of Helping Hands,401 W Rusk St Ste 100,Rockwall,ROCKWALL,975
+DSHS Ballinger,2017 Hutchins Avenue,Ballinger,RUNNELS,100
+Trinity Clinic Family Practice Henderson,105 Zeid Blvd # 2,Henderson,RUSK,300
+Hope Community Medicine-San Augustine,109 E Main St,San Augustine,SAN AUGUSTINE,200
+Cogdell Family Clinic,1700 Cogdell Blvd,Snyder,SCURRY,975
+Resource Care Albany Hq,725 Pate St Ste 100,Albany,SHACKELFORD,200
+Hope Community Medicine-Center,620 Tenaha St,Center,SHELBY,200
+Hope Community Medicine-Tenaha,157 Wall St,Tenaha,SHELBY,100
+Stratford Family Medical Clinic,Po Box 1189,Stratford,SHERMAN,400
+DSHS PHR 4/5N HQ - Tyler (RE),2521 W Front St,Tyler,SMITH,100
+Glen Rose Medical Center,1021 Holden St,Glen Rose,SOMERVELL,300
+Nuestra Clinica Del Valle - Rio Grande,600 N Garza St Ste A,Rio Grande City,STARR,100
+Starr County Memorial Hospital,128 N FM 3167,Rio Grande City,STARR,"1,000"
+Roma Family Health Clinic - Roma 1,640 E Bravo Blvd # 110397,Roma,STARR,200
+Stephens Memorial Hospital,200 S Geneva St,Breckenridge,STEPHENS,300
+Stonewall Memorial Hospital,821 N Broadway St,Aspermont,STONEWALL,300
+Lillian M Hudspeth Memorial Hospital,308 Hudspeth St,Sonora,SUTTON,100
+Swisher Memorial Healthcare System,539 Se 2nd St,Tulia,SWISHER,300
+Jps Hospital,1500 South Main St,Fort Worth,TARRANT,"1,950"
+Throckmorton Rural Health Clinic,802 N Minter Ave Ste B,Throckmorton,THROCKMORTON,200
+Wellness Pointe - Mount Pleasant,2015 Mulberry Ave Ste 250,Mount Pleasant,TITUS,100
+San Angelo State Supported Living Center,11640 Us Highway 87 N,Carlsbad,TOM GREEN,300
+Communitycare North Central,1210 W Braker Ln,Austin,TRAVIS,200
+Communitycare Rundberg,825 E Rundberg Ln Ste B1,Austin,TRAVIS,200
+Communitycare- South Austin,2529 S 1st St,Austin,TRAVIS,200
+Heb Pharmacy 229,6607 S Interstate 35,Austin,TRAVIS,100
+Lone Star Circle Of Care At Jonestown,18220 Fm 1431 Ste D,Leander,TRAVIS,100
+Brookshires Pharmacy 18,520 S Magnolia St,Woodville,TYLER,100
+Tyler County Hospital Family Medical Clinic,104 N Beech St,Woodville,TYLER,500
+Divine Grace Pharmacy,1970 Us Highway 259 S,Diana,UPSHUR,100
+The Med-Shop Pharmacy,825 US HWY 271 N.,Gilmer,UPSHUR,100
+United Medical Centers,913 S Main St,Del Rio,VAL VERDE,100
+Brookshires Pharmacy 033,205 W Frank St,Grand Saline,VAN ZANDT,100
+Innate Medical Solution,749 N.Waldrip,Grand Saline,VAN ZANDT,100
+Brookshires Pharmacy 002,706 W Main St,Van,VAN ZANDT,200
+HEB Pharmacy 554,1505 E Rio Grande,Victoria,VICTORIA,100
+HEB Pharmacy 92,6106 N. Navarro,Victoria,VICTORIA,100
+DSHS Huntsville Clinic,2507 Lake Rd,Huntsville,WALKER,200
+Huntsville Family Medicine - Huntsville 2,123 Medical Park Ln Ste A,Huntsville,WALKER,300
+Ft Bend Family Hlth Ctr Accesshealth - Brookshire,533 Fm 359 S,Brookshire,WALLER,"1,000"
+Healthpoint Hempstead,215 Fm 1488 Rd,Hempstead,WALLER,100
+Gateway Hlth Comm Ctr Inc,2007 S Zapata Hwy,Laredo,WEBB,200
+Parkview Rural Health Clinic - Wheeler,307 E. 9th Street,Wheeler,WHEELER,300
+Hospice of Wichita Falls,4909 Johnson Road,Wichita Falls,WICHITA,200
+LHD Wichita Falls-Wichita CO PH Dist (RE),1700 3rd Street,Wichita Falls,WICHITA,"1,950"
+DSHS Vernon,1531 Cumberland St,Vernon,WILBARGER,100
+Family Pharmacy,1720 Hillcrest Dr,Vernon,WILBARGER,300
+Su Clinica - Raymondville,131 Fm 3168,Raymondville,WILLACY,100
+Wcchd Georgetown,100 W 3rd St,Georgetown,WILLIAMSON,500
+Seton Circle Of Care Senior Health,3950 N A W Grimes Blvd # 104,Round Rock,WILLIAMSON,100
+Lone Star Circle Care Taylor Hlth Ctr,601 Mallard Ln Ste A,Taylor,WILLIAMSON,100
+Texas Department of Criminal Justice BRIDGEPORT,4000 North 10th Street,Bridgeport,WISE,100
+Texas Department of Criminal Justice Johnston,703 Airport Rd.,Winnsboro,WOOD,100
