@@ -5,7 +5,7 @@ library(pdftools)
 
 text <- pdf_text("COVIDVaccineAllocation-Week9.pdf")
 
-convert_pdf("COVIDVaccineAllocation-Week13.pdf", output_file = "week13.csv", format="csv",message = TRUE, api_key = "0k2ll5jrq6ot")
+convert_pdf("COVIDVaccineAllocation-Week15.pdf", output_file = "week15.csv", format="csv",message = TRUE, api_key = "66pnwrb55ow9")
 
 # header tailoring
 
